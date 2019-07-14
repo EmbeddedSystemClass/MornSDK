@@ -1,0 +1,17 @@
+20190603 充电控制 时下发两条指令 修改后已测试  
+调试界面 DlgTab1.cpp  void CDlgTab1::OnBnClickedBtnbatterycharge()
+w控指令 MornSDKDLG.CPP CMornSDKDlg.OnUdpReceived  case 2109:	
+自动充电控制 void CMornSDKDlg::OnTimer(UINT_PTR nIDEvent)
+
+if(!g_isbatDisChargeState[i])  //如果是在放电，就停止放电，其他情况不动作
+应该是如果在充电则停止充电，如果在放电则不动作。
+
+完成了自动充电控制功能测试 int g_chargeEnableFlag =2; 默认为允许大功率充电 开机后自动充电 界面上点击停止充电后int g_chargeEnableFlag =-1，不再自动充电
+
+20190606
+时序控制器参数设置指令增加了异或校验。
+
+20190612
+驱动电源参数设置框初始值显示为20.20，20，20，5 参数查询显示时不进行判断直接将查回来的参数显示在框内。增加了CDlgTab1.InitPage 320-364 401-446行
+20190616
+按照协议修改与w控的状态反馈数据包，其中光源温度和湿度采集没有实现、pd采集没有实现、故障代码中温度保护水流故障温湿度异常没有实现电源系统健康状态没有区分

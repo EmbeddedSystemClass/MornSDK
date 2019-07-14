@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\SerialPort">
+      <UniqueIdentifier>{2a67b20a-2867-4250-a067-1a9c4af684a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SerialPort">
+      <UniqueIdentifier>{86db7e9f-bec1-410f-be8c-332220321896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AdvCan">
+      <UniqueIdentifier>{aec323e2-3079-4152-9f5a-eac06cedb6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AdvCan">
+      <UniqueIdentifier>{70069e1a-7c17-4f31-9ad0-f0938e372548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gridHeader">
+      <UniqueIdentifier>{2c8f4ca8-f2b2-443f-95b3-30800990872b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gridSource">
+      <UniqueIdentifier>{7d7580ce-6a1d-4378-b8c6-35c4e884ff36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MornSDK.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MornSDK.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Blue.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Gray.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Green.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Red.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Yellow.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MornSDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MornSDKDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\osplatformutil.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPort.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPort_global.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPortBase.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPortInfo.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPortInfoBase.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPortInfoWinBase.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\SerialPortWinBase.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort\sigslot.h">
+      <Filter>头文件\SerialPort</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="INI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvCan\AdvCan.h">
+      <Filter>头文件\AdvCan</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvCan\AdvCanIO.h">
+      <Filter>头文件\AdvCan</Filter>
+    </ClInclude>
+    <ClInclude Include="CanManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\CellRange.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridCell.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridCellBase.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridCtrl.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridDropTarget.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\InPlaceEdit.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\MemDC.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\TitleTip.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridCellCheck.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grid\GridCellCombo.h">
+      <Filter>头文件\gridHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="cnComm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MIC3780.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OphirLMMeasurement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MornSDK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MornSDKDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPort.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPortBase.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPortInfo.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPortInfoBase.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPortInfoWinBase.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort\SerialPortWinBase.cpp">
+      <Filter>源文件\SerialPort</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="INI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvCan\AdvCANIO.cpp">
+      <Filter>源文件\AdvCan</Filter>
+    </ClCompile>
+    <ClCompile Include="CanManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridCell.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridCellBase.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridCtrl.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridDropTarget.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\InPlaceEdit.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\TitleTip.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridCellCheck.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grid\GridCellCombo.cpp">
+      <Filter>源文件\gridSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MIC3780.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OphirLMMeasurement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MornSDK.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
